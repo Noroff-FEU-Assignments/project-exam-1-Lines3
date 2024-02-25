@@ -1,0 +1,101 @@
+html {
+    font-family: QuickSand, verdana, sans-serif;
+    background-color: rgb(220, 241, 233);
+}
+body {
+    max-width: 100%;
+}
+#checkbox-menu,
+.nav-logo {
+    display: none;
+}
+a.nav-logo,
+a.nav-logo-mobile {
+    font-family: lobster, sans-serif;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+a,
+.nav {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+nav li {
+    padding: 1rem;
+    margin: 1rem;
+}
+nav li:hover {
+    text-decoration: underline rgb(120, 182, 168);
+}
+.fa {
+    float: right;
+}
+.active-nav {
+    text-decoration: underline rgb(16, 55, 41);
+}
+label {
+    display: block;
+    margin-top: 15px;
+}
+input {
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    padding: 0.5rem;
+}
+.error {
+    color: rgb(192, 0, 0);
+    border: solid;
+    padding: 0.1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.formError {
+    display: none;
+    color: rgb(210, 1, 1);
+    padding: 0.1rem;
+    font-weight: 700;
+}
+form {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background: rgb(215, 226, 224);
+    padding: 2rem;
+    padding-right: 3rem;
+    margin-bottom: 5rem;
+}
+button {
+    padding: 0.2rem;
+    margin-top: 1rem;
+    background: rgb(74, 131, 117);
+    color: rgb(245, 245, 245);
+}
+button:hover {
+    background-color: rgb(24, 113, 86);
+}
+footer {
+    margin-bottom: 2.5rem;
+}
+footer li {
+    list-style: none;
+    margin-top: 0.4rem;
+}
+footer li:hover {
+    text-decoration: underline rgb(120, 182, 168);
+}
+@media only screen and (min-width: 600px) {
+    .menu-icon,
+    .nav-logo-mobile {
+        display: none;
+    }
+    .nav-logo {
+        display: block;
+    }
+    nav ul {
+        display: flex;
+    }
+}
