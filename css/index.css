@@ -1,0 +1,105 @@
+html {
+    font-family: QuickSand, verdana, sans-serif;
+    background-color: rgb(220, 241, 233);
+}
+
+body {
+    max-width: 100%;
+}
+
+#checkbox-menu,
+.nav-logo {
+    display: none;
+
+}
+
+a.nav-logo,
+a.nav-logo-mobile {
+    font-family: lobster, sans-serif;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+
+a,
+.nav {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+nav li {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+nav li:hover {
+    text-decoration: underline rgb(120, 182, 168);
+}
+
+.fa {
+    float: right;
+}
+
+.active-nav {
+    text-decoration: underline rgb(16, 55, 41);
+}
+
+.error {
+    color: rgb(192, 0, 0);
+    border: solid;
+    padding: 0.1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer {
+    margin-bottom: 2.5rem;
+}
+
+footer li {
+    list-style: none;
+    margin-top: 0.4rem;
+
+}
+
+footer li:hover {
+    text-decoration: underline rgb(120, 182, 168);
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .menu-icon,
+    .nav-logo-mobile {
+        display: none;
+    }
+
+    .nav-logo {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+
+    }
+
+    nav li:hover {
+        text-decoration: underline rgb(120, 182, 168);
+    }
+
+    .active-nav {
+        text-decoration: underline rgb(16, 55, 41);
+    }
+
+    a {
+        color: black;
+    }
+
+    body {
+        margin: 1.5rem;
+    }
+}
